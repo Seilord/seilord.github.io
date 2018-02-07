@@ -170,8 +170,6 @@ h6 {font-size: .75em}
 a {
 	color: #000;
 	text-decoration: none;
-	border-bottom: 1px solid #000;
-
  }
  
 	a:hover {color: #444}
@@ -179,12 +177,14 @@ a {
 #main-header {
 	padding: 3em 0 5em 0;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	text-shadow: none;
 	color: #fff;
 	position: relative;
+	display: block;
 	background: #000
  }
+
  
 	#main-header .container {position: relative;z-index:2}
  
@@ -357,7 +357,7 @@ footer {padding: 3em 0 3em 0;height:25px}
 
 /* Style the links inside the navigation bar */
 .nav a {
-    float: left;
+    float: center;
     color: #fff;
     text-align: center;
     padding: 14px 16px;
