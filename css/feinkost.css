@@ -83,13 +83,6 @@ button,html input[type="button"],input[type="reset"],input[type="submit"] {-webk
  
 button[disabled],html input[disabled] {cursor: default}
  
-input[type="checkbox"],input[type="radio"] {box-sizing: border-box;padding:0}
- 
-input[type="search"] {
-	-webkit-appearance: textfield;
-	-moz-box-sizing: content-box;
-	-webkit-box-sizing: content-box;
-	box-sizing: content-box
  }
  
 	input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration {-webkit-appearance: none}
@@ -200,11 +193,9 @@ a {
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background: url(../images/evergreen.jpg) repeat center center;
-		opacity: .6
 	 }
  
-	#main-header h1 {margin: .9em 0 .5em 0;letter-spacing:8px}
+	#main-header h1 {margin: .9em 0 .5em 0;letter-spacing:4px}
  
 	#main-header p {font-weight: 700}
  
@@ -233,8 +224,6 @@ header {text-align: center}
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background: url(../images/summary.jpg) repeat center center;
-		opacity: .3
 	 }
  
 	#summary p {margin: 0 0 2.7em 0}
