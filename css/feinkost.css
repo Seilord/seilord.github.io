@@ -175,23 +175,27 @@ a {
 	a:hover {color: #444}
  
 #main-header {
-	padding: 3em 0 5em 0;
+        top: 0px;
+        left:50%;
+        transform:translateX(-50%);
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	text-shadow: none;
 	color: #fff;
-	position: relative;
-	display: block;
+        position: fixed;
+        width:100%;
+        max-width: 640px;
+        text-align: center;
+        display: block;
 	background: #000
  }
 
  
-	#main-header .container {position: relative;z-index:2}
+	#main-header .container {position: fixed;z-index:1}
  
 	#main-header:after {
 		content: '';
 		display: block;
-		position: absolute;
+		position: fixed;
 		top: 0;
 		right: 0;
 		bottom: 0;
