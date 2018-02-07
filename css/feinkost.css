@@ -355,13 +355,16 @@ footer {padding: 3em 0 3em 0;height:25px}
 
 /* Add a black background color to the top navigation */
 .nav {
-    background-color: #333;
-    overflow: hidden;
+        width: 100%;
+	text-align: center;
+        position: fixed;
+        background-color: #333;
+        overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .nav a {
-    float: center;
+    float: left;
     color: #fff;
     text-align: center;
     padding: 14px 16px;
