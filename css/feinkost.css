@@ -168,7 +168,7 @@ h6 {font-size: .75em}
 .small {font-size: .7150000000000001em}
  
 a {
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 	border-bottom: 1px solid #000;
 
@@ -235,7 +235,7 @@ header {text-align: center}
  
 	#summary p {margin: 0 0 2.7em 0}
  
-	#summary a,.slider a {color: #fff;border-bottom:1px solid white}
+	#summary a,.slider a {color: #000;border-bottom:1px solid black}
  
 	#summary .btn,.slider .btn {
 		background: transparent;
