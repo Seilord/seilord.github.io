@@ -52,6 +52,39 @@ header {
 }
 
 // -------------------------------------------------------------------------
+// NAVIGATION BAR
+// -------------------------------------------------------------------------
+
+@color_1: #fff;
+@color_2: white;
+@background_color_1: #333;
+@background_color_2: #222;
+
+#nav {
+	background-color: @background_color_1;
+	overflow: hidden;
+	a {
+		float: left;
+		color: @color_1;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+		&:hover 
+         {
+		background-color: @background_color_2;
+		color: @color_2;
+	     }
+	     }
+	    a.active 
+         {
+		background-color: @background_color_2;
+		color: @color_2;
+      	 }
+}
+
+
+// -------------------------------------------------------------------------
 // SUMMARY SECTION 
 // -------------------------------------------------------------------------
 
