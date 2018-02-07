@@ -484,10 +484,10 @@ input[type="number"]::-webkit-outer-spin-button,input[type="number"]::-webkit-in
 @media print {*}
  
 a,a:visited {text-decoration: underline}
- 
+/* 
 a[href]:after {content: " (" attr(href) ")"}
  
-abbr[title]:after {content: " (" attr(title) ")"}
+abbr[title]:after {content: " (" attr(title) ")"}*/
  
 .ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after {content: ""}
  
