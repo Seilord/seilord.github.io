@@ -36,7 +36,7 @@ hr {
  
 mark {background: #ff0;color:#000}
  
-code,kbd,pre,samp {font-family: monospace,serif;font-size:1em}
+code,kbd,pre,samp {font-family: 'EncodeSansCondensed-Light';font-size:1em}
  
 pre {white-space: pre-wrap}
  
@@ -70,7 +70,7 @@ fieldset {
 legend {border: 0;padding:0}
  
 button,input,select,textarea {
-	font-family: inherit;
+	font-family: 'EncodeSansCondensed-Light';
 	font-size: 100%;
 	margin: 0
  }
@@ -146,7 +146,7 @@ html {
 body,select,input,textarea {color: #4d4d4d}
  
 h1,h2,h3,h4,h5,h6 {
-	font-family: inherit;
+	font-family: 'EncodeSansCondensed-Light';
 	font-weight: 900;
 	line-height: 1.2
  }
@@ -398,7 +398,7 @@ footer {padding: 3em 0 3em 0;height:25px}
 		padding: 15px 20px;
 		color: #fff;
 		margin: 5px 0 0 0;
-		font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
+		font-family: 'EncodeSansCondensed-Light';
 		line-height: 1.8;
 		text-align: center;
 		font-weight: 400;
