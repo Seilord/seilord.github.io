@@ -7,7 +7,7 @@ audio:not([controls]) {display: none;height:0}
 [hidden],template {display: none}
  
 html {
-	font-family: sans-serif;
+	font-family: 'EncodeSansCondensed-Light';
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%
  }
@@ -137,7 +137,7 @@ textarea {resize: vertical}
 body {width: 100%}
  
 html {
-	font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
+	font-family: 'EncodeSansCondensed-Light';
 	font-weight: 200;
 	font-size: 1.3em;
 	line-height: 1.8
